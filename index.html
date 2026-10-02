@@ -164,6 +164,7 @@ function rz(){if(confirm("Tout effacer ?")){try{localStorage.removeItem(KEY)}cat
 function bk(){return `<h1>💾 Mes données</h1><div class="card"><div class="mu">Tout reste sur ton téléphone. Exporte pour faire une copie.</div><div class="row"><button class="s" onclick="ex()">Exporter</button><button class="s" onclick="im()">Importer</button></div><input id="bkx" placeholder="Données"><button class="s" onclick="rz()">Tout effacer</button></div>`}
 {const s=document.createElement("style");s.textContent="input[type=date]{min-width:0;max-width:100%}.card:empty{display:none}";document.head.appendChild(s)}
 Math.ceil=Math.round;
+{const s=document.createElement("style");s.textContent="input[type=date]{-webkit-appearance:none;appearance:none;display:block;width:100%;max-width:100%;min-width:0;min-height:48px;text-align:left}";document.head.appendChild(s)}
 
 render();
 </script>
